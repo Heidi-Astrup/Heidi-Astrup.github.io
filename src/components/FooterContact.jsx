@@ -1,33 +1,4 @@
-import { useState } from "react";
-
 export default function FooterContact() {
-  const [result, setResult] = useState("");
-
-  const handleSubmit = async (event) => {
-    event.preventDefault();
-    setResult("Sending....");
-    const formData = new FormData(event.target);
-
-    formData.append("access_key", "d01cdf63-a3a7-4443-be63-bae40d7be2a5");
-
-    const response = await fetch("https://api.web3forms.com/submit", {
-      method: "POST",
-      body: formData,
-    });
-
-    const data = await response.json();
-
-    if (data.success) {
-      setResult("Form Submitted Successfully");
-      event.target.reset();
-    } else {
-      console.log("Error", data);
-      setResult(data.message);
-    }
-
-    alert({ result });
-  };
-
   return (
     <div className="FooterContact">
       <div className="kontaktDel">
@@ -39,7 +10,11 @@ export default function FooterContact() {
         <p>GitHub</p>
         <p>FaceBook</p>
       </div>
-      <form onSubmit={handleSubmit} className="kontaktForm">
+      <form
+        action="mailto:Heidi@kabelmail.dk"
+        method="POST"
+        className="kontaktForm"
+      >
         <label HTMLfor="name">Navn</label>
         <input id="name" type="text" placeholder="Navn" />
         <label htmlFor="mail">Mail</label>
@@ -55,12 +30,6 @@ export default function FooterContact() {
           rows="10"
           placeholder="Besked"
         ></textarea>
-        <input
-          type="hidden"
-          name="access_key"
-          value="d01cdf63-a3a7-4443-be63-bae40d7be2a5"
-        />
-
         <button type="submit">Send og få verdens bedste praktikant</button>
       </form>
     </div>
