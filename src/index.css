@@ -1,23 +1,40 @@
+@import url("https://fonts.cdnfonts.com/css/voor");
+
 :root {
-  --navColor: #f3c7c7;
-  --fontColor: #000034;
-  --gul: #e6ec98;
+  --displayFont: "Voor", sans-serif;
+  --font: "Arial Nova", sans-serif;
+  --morkBlaa: #1a2074;
+  --lysBlaa: #d0e7e7;
+  --rod: #752222;
+  --gul: #fcfcb8;
 }
 
 body {
-  font-family: system-ui, Avenir Helvetica, Arial, sans-serif;
-  background: #f8f8f8;
+  color: var(--morkBlaa);
+  font-family: var(--font);
+  font-weight: 300;
+  background: var(--gul);
   margin: 0;
   padding: 0;
-  text-align: center;
-}
-
-body {
-  color: var(--fontColor);
 }
 
 main {
   padding: 2rem;
+}
+
+h1 {
+  font-family: var(--displayFont);
+  font-size: 3rem;
+  text-transform: uppercase;
+  font-weight: 400;
+  margin: 0;
+}
+
+h2 {
+  font-family: var(--displayFont);
+  font-size: 6rem;
+  text-transform: uppercase;
+  font-weight: 400;
 }
 
 nav {
@@ -26,48 +43,10 @@ nav {
   padding: 1rem;
   font-size: 1.5rem;
   align-items: center;
-  background-color: var(--navColor);
+  background-color: var(--lysBlaa);
 }
 
 a {
   text-decoration: none;
-  color: var(--fontColor);
-}
-
-.header {
-  background-color: #e6ec98;
-  text-align: center;
-  min-height: 30rem;
-  border-radius: 3rem;
-}
-
-img {
-  max-width: 90%;
-  height: auto;
-}
-
-.project-card {
-  background-color: white;
-  border-radius: 1rem;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  margin: 1rem;
-  padding: 1rem;
-  text-align: left;
-
-  display: flex;
-  justify-content: space-between;
-}
-
-.projects-show {
-  display: flex;
-  justify-content: space-between;
-  margin: auto;
-}
-
-.project {
-  width: 30%;
-  border-radius: 1rem;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  margin: 1rem;
-  padding: 1rem;
+  color: var(--morkBlaa);
 }
