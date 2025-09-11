@@ -1,0 +1,69 @@
+[
+  {
+    "id": 0,
+    "title": "HAPS - website",
+    "year": 2024,
+    "description": "Madside med opskriter.",
+    "tags": ["HTML", "CSS"],
+    "image": "assets/haps.jpg",
+    "links": [
+      {
+        "url": "https://haps.astrupdesigns.dk/madplan.html",
+        "text": "Haps - website"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "title": "Radar - Responsiv website",
+    "year": 2024,
+    "description": "Spillestedet Radar i Aarhus. Case med ny udgave af deres hjemmeside, for at få flere besøgende.",
+    "tags": ["HTML", "CSS"],
+    "image": "assets/radar.jpg",
+    "links": [
+      { "url": "https://radar.astrupdesigns.dk", "text": "Radar spillested" }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Zero BuzzBrew - responsivt website",
+    "year": 2025,
+    "description": "Gruppeprojekt med at lave en hjemmeside for et fiktivt bryggeri, med fokus på at skabe fællesskab for unge.",
+    "tags": ["HTML", "CSS", "JavaScript"],
+    "image": "assets/zerobuzzbrew.jpg",
+    "links": [
+      {
+        "url": "https://zerobuzzbrew.astrupdesigns.dk/",
+        "text": "Zero BuzzBrew"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Menstrution - informativ website",
+    "year": 2025,
+    "description": "I samarbejde med STENO museet, har jeg med en anden studerende, lavet en informativ hjemmeside om menstruation, for at nedbryde tabuer og lære om menstruation til målgruppen; mellemtrinnet i folkeskolen. Websitet er lavet som en webapp og er derfor kun optimeret til Ipad pro skærmstørrelse.",
+    "tags": ["HTML", "CSS", "JavaScript"],
+    "image": "assets/menstruation.jpg",
+    "links": [
+      {
+        "url": "https://menstruation.astrupdesigns.dk/",
+        "text": "Menstruation informativt website"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Aarhus Bordtennis - aktiv website",
+    "year": 2025,
+    "description": "Informationsside for Aarhus Bordtennisklub, med fokus på at gøre siden mere aktiv og brugervenlig.(Lavet uden studie sammenhæng, som frivilligt arbejde)",
+    "tags": ["Wordpress"],
+    "image": "assets/menstruation.jpg",
+    "links": [
+      {
+        "url": "https://aarhusbordtennis.dk/",
+        "text": "Aarhus Bordtennis website"
+      }
+    ]
+  }
+]
