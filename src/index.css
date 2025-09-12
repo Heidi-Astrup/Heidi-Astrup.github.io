@@ -78,7 +78,10 @@ a {
   align-items: center;
   width: 80%;
   margin: auto;
-  padding: 5rem;
+}
+
+.startside img {
+  width: 30%;
 }
 
 .fedeProjekter {
@@ -88,6 +91,22 @@ a {
   text-align: center;
   background-color: var(--morkBlaa);
   color: var(--gul);
+}
+
+.About {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  margin: auto;
+  padding: 5rem 0;
+}
+
+.abouttekst {
+  width: 50%;
+}
+
+.About img {
+  width: 30%;
 }
 
 /* Footer Contact Form */

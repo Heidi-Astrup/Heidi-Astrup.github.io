@@ -1,3 +1,5 @@
+import HeidiAstrup from "../images/HeidiAstrup.png";
+
 export default function Home() {
   return (
     <main>
@@ -9,10 +11,7 @@ export default function Home() {
             med speciale i <strong>frontend</strong>
           </p>
         </article>
-        <img
-          src="https://avatars.githubusercontent.com/u/180438318?v=4"
-          alt="Profilbillede af Heidi AStrup"
-        />
+        <img src={HeidiAstrup} alt="Profilbillede af Heidi Astrup" />
       </div>
       <article className="fedeProjekter">
         <h3>Projekter</h3>
