@@ -1,7 +1,7 @@
 export default function Projects() {
   return (
-    <div className="Projects">
-      <h2>Projects Page</h2>
-    </div>
+    <main className="Projects">
+      <h3>Projects Page</h3>
+    </main>
   );
 }

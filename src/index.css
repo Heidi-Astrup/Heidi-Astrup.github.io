@@ -19,7 +19,6 @@ body {
 }
 
 main {
-  padding: 2rem;
   font-size: 1.6rem;
 }
 
@@ -39,10 +38,30 @@ h2 {
   margin: 0%;
 }
 
+h3 {
+  font-family: var(--displayFont);
+  font-size: 4rem;
+  text-transform: uppercase;
+  font-weight: 400;
+  margin: 0%;
+}
+
+h4 {
+  font-family: var(--font);
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: 300;
+  margin: 0%;
+}
+
+p {
+  margin: 0;
+}
+
 nav {
   display: flex;
   justify-content: space-around;
-  padding: 1rem;
+  padding: 2rem;
   font-size: 1.6rem;
   align-items: center;
   background-color: var(--lysBlaa);
@@ -52,6 +71,26 @@ a {
   text-decoration: none;
   color: var(--morkBlaa);
 }
+
+.startside {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+  padding: 5rem;
+}
+
+.fedeProjekter {
+  margin-top: 5rem;
+  padding: 3rem;
+  margin: auto;
+  text-align: center;
+  background-color: var(--morkBlaa);
+  color: var(--gul);
+}
+
+/* Footer Contact Form */
 
 .FooterContact {
   margin: 0%;
