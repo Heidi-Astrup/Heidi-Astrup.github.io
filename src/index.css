@@ -3,7 +3,7 @@
 :root {
   --displayFont: "Voor", sans-serif;
   --font: "Arial Nova", sans-serif;
-  --morkBlaa: #1a2074;
+  --morkBlaa: rgb(26, 32, 116);
   --lysBlaa: #d0e7e7;
   --rod: #752222;
   --gul: #fcfcb8;
@@ -392,8 +392,8 @@ button:hover {
 
   .About {
     flex-direction: column;
-
     padding-top: 1rem;
+    gap: 1rem;
   }
 
   .abouttekst {
