@@ -18,8 +18,14 @@ export default function ProjectDetails() {
   return (
     <main>
       {projekter.map((projekt) => (
-        <section>
+        <section key={projekt.id} className="specifikt-projekt">
           <h3>{projekt.title}</h3>
+          <h4>{projekt.subtitle}</h4>
+          <p>{projekt.description}</p>
+          <p>
+            {projekt.year} - {projekt.semester}
+          </p>
+          <p>{projekt.grade}</p>
           <img src={projekt.image} alt={projekt.title} />
         </section>
       ))}
