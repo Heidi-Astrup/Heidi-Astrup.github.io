@@ -22,7 +22,9 @@ export default function ProjectSection() {
             <h4>{projekt.subtitle}</h4>
             <p>{projekt.description}</p>
             <p>{projekt.year}</p>
-            <p>{projekt.tags}</p>
+            <p>{projekt.tags.join(" | ")}</p>
+            <a href={projekt.url}>Se hele projektet &#x2192; </a>
+            <button>Se websiden online</button>
           </article>
         </section>
       ))}

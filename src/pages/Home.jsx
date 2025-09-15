@@ -20,7 +20,7 @@ export default function Home() {
         <ProjectTop />
         <NavLink to="/projects">Se alle projekter &#x2192; </NavLink>
       </article>
-      <article>
+      <article className="kompetencerBoks">
         <h3>Jeg arbejder i</h3>
         <div className="kompetencer">
           <p>HTML</p>

@@ -117,7 +117,7 @@ a {
   object-position: top; /* Justerer, hvilket område der skal vises */
 }
 
-article {
+.kompetencerBoks {
   padding: 5rem;
   text-align: center;
   margin: auto;
@@ -150,6 +150,29 @@ article {
   background-color: var(--morkBlaa);
   color: var(--gul);
   margin-bottom: 4rem;
+}
+
+.projekt article {
+  width: 40%;
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.projekt article p {
+  margin-bottom: 2rem;
+}
+
+.projekt a {
+  color: var(--lysBlaa);
+}
+
+button {
+  width: 60%;
+}
+
+.projekt a:hover {
+  text-decoration: underline;
 }
 
 .projekt img {
@@ -209,7 +232,7 @@ article {
 
 .kontaktForm input,
 .besked,
-.kontaktForm button {
+button {
   padding: 0.5rem;
   border: 0.15rem solid var(--gul);
   border-radius: 0.5rem;
@@ -220,13 +243,13 @@ article {
   font-size: 1.6rem;
 }
 
-.kontaktForm button {
+button {
   margin-top: 1.5rem;
   font-size: 1.6rem;
   color: var(--gul);
 }
 
-.kontaktForm button:hover {
+button:hover {
   background-color: var(--gul);
   color: var(--morkBlaa);
   cursor: pointer;
