@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { NavLink } from "react-router";
 
 export default function ProjectSection() {
   const [projekter, setProjekter] = useState([]);
@@ -23,8 +24,12 @@ export default function ProjectSection() {
             <p>{projekt.description}</p>
             <p>{projekt.year}</p>
             <p>{projekt.tags.join(" | ")}</p>
-            <a href={projekt.url}>Se hele projektet &#x2192; </a>
-            <button>Se websiden online</button>
+            <NavLink to={`/projects/${projekt.id}`}>
+              Se hele projektet her &#x2192;{" "}
+            </NavLink>
+            <a href={projekt.url}>
+              <button>Se websiden online</button>{" "}
+            </a>
           </article>
         </section>
       ))}
