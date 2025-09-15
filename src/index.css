@@ -144,7 +144,7 @@ a {
 }
 
 /*CSS til projektsiden*/
-.projekt {
+.projekt-card {
   display: flex;
   justify-content: space-between;
   background-color: var(--morkBlaa);
@@ -152,18 +152,18 @@ a {
   margin-bottom: 4rem;
 }
 
-.projekt article {
+.projekt-card article {
   width: 40%;
   padding: 3rem;
   display: flex;
   flex-direction: column;
 }
 
-.projekt article p {
+.projekt-card article p {
   margin-bottom: 2rem;
 }
 
-.projekt a {
+.projekt-card a {
   color: var(--lysBlaa);
 }
 
@@ -171,11 +171,11 @@ button {
   width: 60%;
 }
 
-.projekt a:hover {
+.projekt-card a:hover {
   text-decoration: underline;
 }
 
-.projekt img {
+.projekt-card img {
   width: 60%;
 }
 

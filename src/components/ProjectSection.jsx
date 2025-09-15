@@ -16,7 +16,7 @@ export default function ProjectSection() {
   return (
     <section className="project-section">
       {projekter.map((projekt) => (
-        <section key={projekt.id} className="projekt">
+        <section key={projekt.id} className="projekt-card">
           <img src={projekt.image} alt={projekt.title} />
           <article>
             <h3>{projekt.title}</h3>
