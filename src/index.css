@@ -20,6 +20,7 @@ body {
 
 main {
   font-size: 1.6rem;
+  font-weight: 100;
 }
 
 h1 {
@@ -91,6 +92,68 @@ a {
   text-align: center;
   background-color: var(--morkBlaa);
   color: var(--gul);
+}
+
+.fedeProjekter a {
+  color: var(--gul);
+  font-size: 1.6rem;
+  margin-top: 2rem;
+}
+
+.fedeProjekter a:hover {
+  text-decoration: underline;
+}
+
+.ProjektTop {
+  display: flex;
+  justify-content: space-around;
+  text-align: left;
+}
+
+.ProjektTop img {
+  width: 400px;
+  height: 550px;
+  object-fit: cover; /* Beskærer billedet, så det fylder elementet med bevaret billedformat */
+  object-position: top; /* Justerer, hvilket område der skal vises */
+}
+
+article {
+  padding: 5rem;
+  text-align: center;
+  margin: auto;
+}
+.kompetencer {
+  margin: auto;
+  margin-top: 1rem;
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.kompetencer p {
+  border: 3px solid var(--morkBlaa);
+  border-radius: 0.6rem;
+  padding: 0.7rem 2rem;
+}
+
+.kompetencer p:hover {
+  background-color: var(--morkBlaa);
+  color: var(--gul);
+}
+
+/*CSS til projektsiden*/
+.projekt {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--morkBlaa);
+  color: var(--gul);
+  margin-bottom: 4rem;
+}
+
+.projekt img {
+  width: 60%;
 }
 
 .About {

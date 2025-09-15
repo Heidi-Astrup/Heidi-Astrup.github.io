@@ -1,11 +1,12 @@
 [
   {
     "id": 0,
-    "title": "HAPS - website",
+    "title": "HAPS",
+    "subtitle": "website",
     "year": 2024,
     "description": "Madside med opskriter.",
     "tags": ["HTML", "CSS"],
-    "image": "assets/haps.jpg",
+    "image": "src/images/hapsBla.png",
     "links": [
       {
         "url": "https://haps.astrupdesigns.dk/madplan.html",
@@ -19,7 +20,7 @@
     "year": 2024,
     "description": "Spillestedet Radar i Aarhus. Case med ny udgave af deres hjemmeside, for at få flere besøgende.",
     "tags": ["HTML", "CSS"],
-    "image": "assets/radar.jpg",
+    "image": "src/images/radarBla.png",
     "links": [
       { "url": "https://radar.astrupdesigns.dk", "text": "Radar spillested" }
     ]
@@ -30,7 +31,7 @@
     "year": 2025,
     "description": "Gruppeprojekt med at lave en hjemmeside for et fiktivt bryggeri, med fokus på at skabe fællesskab for unge.",
     "tags": ["HTML", "CSS", "JavaScript"],
-    "image": "assets/zerobuzzbrew.jpg",
+    "image": "src/images/brewBla.png",
     "links": [
       {
         "url": "https://zerobuzzbrew.astrupdesigns.dk/",
@@ -44,7 +45,8 @@
     "year": 2025,
     "description": "I samarbejde med STENO museet, har jeg med en anden studerende, lavet en informativ hjemmeside om menstruation, for at nedbryde tabuer og lære om menstruation til målgruppen; mellemtrinnet i folkeskolen. Websitet er lavet som en webapp og er derfor kun optimeret til Ipad pro skærmstørrelse.",
     "tags": ["HTML", "CSS", "JavaScript"],
-    "image": "assets/menstruation.jpg",
+    "image": "src/images/menstruationBla.png",
+    "topImage": "src/images/mensHel.jpg",
     "links": [
       {
         "url": "https://menstruation.astrupdesigns.dk/",
@@ -58,7 +60,8 @@
     "year": 2025,
     "description": "Informationsside for Aarhus Bordtennisklub, med fokus på at gøre siden mere aktiv og brugervenlig.(Lavet uden studie sammenhæng, som frivilligt arbejde)",
     "tags": ["Wordpress"],
-    "image": "assets/menstruation.jpg",
+    "image": "src/images/bordtennisBla.png",
+    "topImage": "src/images/aabtHel.jpg",
     "links": [
       {
         "url": "https://aarhusbordtennis.dk/",

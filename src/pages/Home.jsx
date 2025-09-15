@@ -1,4 +1,6 @@
 import HeidiAstrup from "../images/HeidiAstrup.png";
+import ProjectTop from "../components/ProjektTop.jsx";
+import { NavLink } from "react-router";
 
 export default function Home() {
   return (
@@ -15,7 +17,22 @@ export default function Home() {
       </div>
       <article className="fedeProjekter">
         <h3>Projekter</h3>
-        <p>Her kommer der en masse fede projekter</p>
+        <ProjectTop />
+        <NavLink to="/projects">Se alle projekter &#x2192; </NavLink>
+      </article>
+      <article>
+        <h3>Jeg arbejder i</h3>
+        <div className="kompetencer">
+          <p>HTML</p>
+          <p>CSS</p>
+          <p>JavaScript</p>
+          <p>React</p>
+          <p>Figma</p>
+          <p>GitHub</p>
+          <p>Adobe</p>
+          <p>VS code</p>
+          <p>Canva</p>
+        </div>
       </article>
     </main>
   );
