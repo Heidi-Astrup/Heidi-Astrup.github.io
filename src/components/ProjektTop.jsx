@@ -5,18 +5,18 @@ import radarHel from "../images/radarHel.jpg";
 export default function ProjectTop() {
   return (
     <div className="ProjektTop">
-      <div className="projektDel">
+      <a href="https://aarhusbordtennis.dk/" className="projekt-del">
         <img src={bordtennisHel} alt="" />
         <p>Aarhus Bordtennis</p>
-      </div>
-      <div className="projektDel">
+      </a>
+      <a href="https://menstruation.astrupdesigns.dk/" className="projekt-del">
         <img src={mensHel} alt="" />
         <p>Menstruation information</p>
-      </div>
-      <div className="projektDel">
+      </a>
+      <a href="https://radar.astrupdesigns.dk" className="projekt-del">
         <img src={radarHel} alt="" />
         <p>Radar</p>
-      </div>
+      </a>
     </div>
   );
 }

@@ -33,7 +33,7 @@ h1 {
 
 h2 {
   font-family: var(--displayFont);
-  font-size: 6rem;
+  font-size: 5rem;
   text-transform: uppercase;
   font-weight: 400;
   margin: 0%;
@@ -41,7 +41,7 @@ h2 {
 
 h3 {
   font-family: var(--displayFont);
-  font-size: 4rem;
+  font-size: 3rem;
   text-transform: uppercase;
   font-weight: 400;
   margin: 0%;
@@ -49,7 +49,7 @@ h3 {
 
 h4 {
   font-family: var(--font);
-  font-size: 2rem;
+  font-size: 1.4rem;
   text-transform: uppercase;
   font-weight: 300;
   margin: 0%;
@@ -57,21 +57,32 @@ h4 {
 
 p {
   margin: 0;
+  font-size: 1.2rem;
+}
+
+a {
+  text-decoration: none;
+  color: var(--lysBlaa);
+  font-size: 1.4rem;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 nav {
   display: flex;
   justify-content: space-around;
   padding: 0.5rem;
-  font-size: 1.8rem;
   align-items: center;
   background-color: var(--gul);
   position: sticky;
   top: 0;
   overflow: hidden;
+  z-index: 10;
 }
 
-a {
+nav a {
   text-decoration: none;
   color: var(--morkBlaa);
 }
@@ -97,27 +108,35 @@ a {
   color: var(--gul);
 }
 
-.fedeProjekter a {
-  color: var(--gul);
-  font-size: 1.6rem;
-  margin-top: 2rem;
-}
-
-.fedeProjekter a:hover {
-  text-decoration: underline;
-}
-
 .ProjektTop {
   display: flex;
   justify-content: space-around;
   text-align: left;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
 }
 
 .ProjektTop img {
-  width: 400px;
-  height: 550px;
+  width: 19rem;
+  height: auto;
   object-fit: cover; /* Beskærer billedet, så det fylder elementet med bevaret billedformat */
   object-position: top; /* Justerer, hvilket område der skal vises */
+}
+
+.projekt-del {
+  transition: transform 0.4s ease-in-out; /* Smooth animation */
+}
+
+.projekt-del:hover {
+  transform: translateY(-2rem); /*gør at den "hopper" op når man hover*/
+}
+
+.ProjektTop a {
+  color: var(--gul);
+}
+
+.ProjektTop a:hover {
+  text-decoration: none;
 }
 
 .kompetencerBoks {
@@ -152,34 +171,35 @@ a {
   justify-content: space-between;
   background-color: var(--morkBlaa);
   color: var(--gul);
-  margin-bottom: 4rem;
+  margin-bottom: 3rem;
 }
 
 .projekt-card article {
   width: 40%;
-  padding: 3rem;
+  padding: 1.5rem;
   display: flex;
   flex-direction: column;
 }
 
 .projekt-card article p {
-  margin-bottom: 2rem;
-}
-
-.projekt-card a {
-  color: var(--lysBlaa);
+  margin-bottom: 1rem;
 }
 
 button {
   width: 60%;
 }
 
-.projekt-card a:hover {
-  text-decoration: underline;
-}
-
 .projekt-card img {
   width: 60%;
+  height: 25rem;
+  object-fit: cover; /* Beskærer billedet, så det fylder elementet med bevaret billedformat */
+  object-position: top; /* Justerer, hvilket område der skal vises */
+}
+
+/*styling til projektdetalje siden*/
+.specifikt-projekt {
+  display: flex;
+  justify-content: space-around;
 }
 
 .About {
@@ -196,27 +216,28 @@ button {
 
 .About img {
   width: 30%;
+  height: 100%;
 }
 
 /* Footer Contact Form */
 
 .FooterContact {
   margin: 0%;
-  padding: 8rem;
+  padding: 3rem 8rem;
   display: flex;
   justify-content: space-around;
   background-color: var(--morkBlaa);
   color: var(--gul);
-  font-size: 1.6rem;
+  font-size: 1.3rem;
 }
 
 .FooterContact h3 {
   font-size: 3rem;
   font-family: var(--displayFont);
   margin: 0%;
+  padding-top: 2rem;
   font-weight: 400;
 }
-
 .kontaktDel {
   width: 40%;
 }
@@ -224,13 +245,13 @@ button {
 .kontaktForm {
   display: flex;
   flex-direction: column;
-  width: 30%;
+  width: 50%;
   margin: auto;
 }
 
 .kontaktForm label {
   margin-top: 1rem;
-  font-size: 1.6rem;
+  font-size: 1.3rem;
 }
 
 .kontaktForm input,
@@ -243,12 +264,12 @@ button {
   font-weight: 200;
   background-color: #00000000;
   color: var(--gul);
-  font-size: 1.6rem;
+  font-size: 1.2rem;
 }
 
 button {
   margin-top: 1.5rem;
-  font-size: 1.6rem;
+  font-size: 1.3rem;
   color: var(--gul);
 }
 

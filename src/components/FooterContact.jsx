@@ -15,7 +15,7 @@ export default function FooterContact() {
         method="POST"
         className="kontaktForm"
       >
-        <label HTMLfor="name">Navn</label>
+        <label htmlFor="name">Navn</label>
         <input id="name" type="text" placeholder="Navn" />
         <label htmlFor="mail">Mail</label>
         <input id="mail" type="email" placeholder="Email" />
@@ -27,7 +27,7 @@ export default function FooterContact() {
           name=""
           id="besked"
           cols="30"
-          rows="10"
+          rows="3"
           placeholder="Besked"
         ></textarea>
         <button type="submit">Send og få verdens bedste praktikant</button>
