@@ -3,11 +3,30 @@ import { NavLink } from "react-router";
 export default function NavBar() {
   return (
     <nav>
-      <h1>HEIDI ASTRUP</h1>
-      <NavLink to="/">Home</NavLink>
-      <NavLink to="/projects">Projects</NavLink>
-      <NavLink to="/about">About</NavLink>
-      <NavLink to="/contact">Contact</NavLink>
+      <NavLink to="/" className="stor">
+        <h1>HEIDI ASTRUP</h1>
+      </NavLink>
+      <NavLink to="/" className={({ isActive }) => (isActive ? "active" : "")}>
+        Hjem
+      </NavLink>
+      <NavLink
+        to="/projects"
+        className={({ isActive }) => (isActive ? "active" : "")}
+      >
+        Projekter
+      </NavLink>
+      <NavLink
+        to="/about"
+        className={({ isActive }) => (isActive ? "active" : "")}
+      >
+        Om mig
+      </NavLink>
+      <NavLink
+        to="/contact"
+        className={({ isActive }) => (isActive ? "active" : "")}
+      >
+        Kontakt
+      </NavLink>
     </nav>
   );
 }

@@ -29,6 +29,7 @@ h1 {
   text-transform: uppercase;
   font-weight: 400;
   margin: 0;
+  letter-spacing: 5px;
 }
 
 h2 {
@@ -72,8 +73,8 @@ a:hover {
 
 nav {
   display: flex;
-  justify-content: space-around;
-  padding: 0.5rem;
+  justify-content: space-evenly;
+  padding: 0.5rem 0rem;
   align-items: center;
   background-color: var(--gul);
   position: sticky;
@@ -82,9 +83,27 @@ nav {
   z-index: 10;
 }
 
+nav .stor {
+  width: 35%;
+}
+
 nav a {
   text-decoration: none;
   color: var(--morkBlaa);
+  width: 7%;
+}
+
+nav a:hover {
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.active {
+  font-weight: 600;
+}
+
+strong {
+  font-weight: 600;
 }
 
 .startside {
@@ -147,7 +166,7 @@ nav a {
 .kompetencer {
   margin: auto;
   margin-top: 1rem;
-  width: 50%;
+  width: 60%;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
@@ -199,7 +218,43 @@ button {
 /*styling til projektdetalje siden*/
 .specifikt-projekt {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  width: 80%;
+  margin: auto;
+  padding: 4rem 0rem;
+}
+
+.specifikt-projekt article {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+}
+
+.specifikt-projekt article p {
+  margin-bottom: 1rem;
+}
+
+.specifikt-projekt img {
+  width: 50%;
+}
+
+.specifikt-projekt button {
+  color: var(--morkBlaa);
+  border: 0.15rem solid var(--morkBlaa);
+  font: 1.2rem;
+  margin-top: 0;
+}
+
+.specifikt-projekt button:hover {
+  color: var(--gul);
+  background-color: var(--morkBlaa);
+  font: 1.2rem;
+  margin-top: 0;
+}
+
+.specifikt-projekt .link {
+  color: var(--morkBlaa);
+  margin-top: 2rem;
 }
 
 .About {
@@ -227,6 +282,11 @@ button {
   display: flex;
   justify-content: space-around;
   background-color: var(--morkBlaa);
+  color: var(--gul);
+  font-size: 1.3rem;
+}
+
+.FooterContact a {
   color: var(--gul);
   font-size: 1.3rem;
 }

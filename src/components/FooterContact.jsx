@@ -3,8 +3,12 @@ export default function FooterContact() {
     <div className="FooterContact">
       <div className="kontaktDel">
         <h2>KONTAKT</h2>
-        <p>E-mail: Heidi@kabelmail.dk</p>
-        <p>Tlf: 22 36 72 07</p>
+        <p>
+          E-mail: <a href="mailto:Heidi@kabelmail.dk">Heidi@kabelmail.dk</a>
+        </p>
+        <p>
+          Tlf: <a href="tel:+4522367207">22 36 72 07</a>
+        </p>
         <h3>SOCIALS</h3>
         <p>LinkedIn</p>
         <p>GitHub</p>

@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { useParams } from "react-router";
+import { useParams, NavLink } from "react-router";
 
 export default function ProjectDetails() {
   const [projekter, setProjekter] = useState([]);
@@ -26,11 +26,16 @@ export default function ProjectDetails() {
             <p>
               {projekt.year} - {projekt.semester}
             </p>
-            <p>{projekt.grade}</p>
+            <p>Karakter: {projekt.grade}</p>
+            <p>{projekt.tags.join(" | ")}</p>
+            <a href={projekt.url}>
+              <button>Se websiden online</button>
+            </a>
+            <NavLink className="link" to={`/projects`}>
+              &#x2190; Tilbage til alle projekter{" "}
+            </NavLink>
           </article>
-          <figure>
-            <img src={projekt.image} alt={projekt.title} />
-          </figure>
+          <img src={`/${projekt.image}`} alt={projekt.title} />
         </section>
       ))}
     </main>

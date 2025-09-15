@@ -43,7 +43,7 @@
     "semester": "2. semester",
     "grade": "10",
     "description": "I samarbejde med STENO museet, har vi lavet en hjemmeside om menstruation, for at nedbryde tabuer og lære om menstruation til målgruppen; mellemtrinnet i folkeskolen.",
-    "notice": " Websitet er lavet som en webapp og er derfor kun optimeret til Ipad pro skærmstørrelse.",
+    "notice": "Websitet er lavet som en webapp og er derfor kun optimeret til Ipad pro skærmstørrelse.",
     "tags": ["HTML", "CSS", "JavaScript"],
     "image": "src/images/menstruationBla.png",
     "topImage": "src/images/mensHel.jpg",
