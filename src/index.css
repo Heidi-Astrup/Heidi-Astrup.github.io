@@ -73,8 +73,8 @@ a:hover {
 
 nav {
   display: flex;
-  justify-content: space-evenly;
-  padding: 0.5rem 0rem;
+  justify-content: space-between;
+  padding: 0.5rem 3rem;
   align-items: center;
   background-color: var(--gul);
   position: sticky;
@@ -84,13 +84,20 @@ nav {
 }
 
 nav .stor {
-  width: 35%;
+  width: 32%;
+}
+
+nav section {
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
 }
 
 nav a {
   text-decoration: none;
   color: var(--morkBlaa);
-  width: 7%;
+  width: 30%;
+  text-align: center;
 }
 
 nav a:hover {
@@ -100,6 +107,64 @@ nav a:hover {
 
 .active {
   font-weight: 600;
+}
+
+/*Responsiv navbar*/
+nav .menu {
+  display: none;
+  position: absolute;
+  top: 0.75rem;
+  right: 0.75rem;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 2.25rem;
+  height: 2rem;
+}
+
+nav .menu span {
+  height: 0.4rem;
+  width: 100%;
+  background-color: var(--morkBlaa);
+  border-radius: 0.2rem;
+}
+
+@media (max-width: 480px) {
+  nav .menu {
+    display: flex;
+  }
+
+  nav {
+    flex-direction: column;
+    align-items: start;
+    padding: 0.5rem;
+  }
+
+  nav section {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    margin: 1.5rem 0.25rem;
+    gap: 2rem;
+  }
+
+  nav section a {
+    width: 100%;
+    text-align: center;
+  }
+
+  nav .open {
+    display: flex;
+  }
+
+  nav .stor {
+    width: 85%;
+    text-align: left;
+  }
+
+  nav .stor h1 {
+    font-size: 2.5rem;
+    letter-spacing: 3px;
+  }
 }
 
 strong {
