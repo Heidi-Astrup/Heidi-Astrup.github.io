@@ -6,7 +6,7 @@ export default function ProjectSection() {
 
   useEffect(() => {
     async function fetchProjects() {
-      const response = await fetch("/data/projects.json");
+      const response = await fetch("data/projects.json");
       const data = await response.json();
       setProjekter(data);
     }
