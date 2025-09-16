@@ -1,5 +1,4 @@
 import { useState, useEffect } from "react";
-
 import ProjectSection from "../components/ProjectSection";
 
 export default function Projects() {
@@ -17,7 +16,7 @@ export default function Projects() {
   return (
     <main className="Projects">
       {projekter.map((projekt) => (
-        <ProjectSection client={projekt} key={projekt.id} />
+        <ProjectSection projekt={projekt} key={projekt.id} />
       ))}
     </main>
   );

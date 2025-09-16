@@ -25,7 +25,7 @@ export default function ContactForm() {
   }
 
   return (
-    <form on onSubmit={sendEmail}>
+    <form onSubmit={sendEmail}>
       <label htmlFor="name">Navn</label>
       <input id="name" type="text" placeholder="Navn" name="navn" />
       <label htmlFor="emne">Emne</label>

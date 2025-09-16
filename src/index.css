@@ -84,7 +84,7 @@ nav {
 }
 
 nav .stor {
-  width: 32%;
+  width: 50%;
 }
 
 nav section {
@@ -126,45 +126,6 @@ nav .menu span {
   width: 100%;
   background-color: var(--morkBlaa);
   border-radius: 0.2rem;
-}
-
-@media (max-width: 480px) {
-  nav .menu {
-    display: flex;
-  }
-
-  nav {
-    flex-direction: column;
-    align-items: start;
-    padding: 0.5rem;
-  }
-
-  nav section {
-    display: none;
-    flex-direction: column;
-    width: 100%;
-    margin: 1.5rem 0.25rem;
-    gap: 2rem;
-  }
-
-  nav section a {
-    width: 100%;
-    text-align: center;
-  }
-
-  nav .open {
-    display: flex;
-  }
-
-  nav .stor {
-    width: 85%;
-    text-align: left;
-  }
-
-  nav .stor h1 {
-    font-size: 2.5rem;
-    letter-spacing: 3px;
-  }
 }
 
 strong {
@@ -281,6 +242,7 @@ button {
 .projekt-card:nth-child(2n) > article {
   /* for every second client row switch sides of image and text*/
   text-align: left;
+  color: var(--lysBlaa);
   margin: auto auto auto 0;
 }
 
@@ -288,17 +250,22 @@ button {
   .projekt-card {
     display: grid;
     grid-template-columns: 3fr 4fr;
+    border: 3px solid green;
   }
+
   .projekt-card:nth-child(2n) {
     grid-template-columns: 4fr 3fr;
+    border: 2px solid red;
   }
 
   .projekt-card:nth-child(2n) > img {
     order: 1;
+    border: 2px solid red;
   }
 
   .projekt-card:nth-child(2n) > article {
     order: 2;
+    border: 2px solid blue;
   }
 }
 
@@ -517,5 +484,45 @@ button:hover {
   .About img {
     width: 100%;
     order: 1;
+  }
+}
+
+/*responsiv navbar til telefon*/
+@media (max-width: 480px) {
+  nav .menu {
+    display: flex;
+  }
+
+  nav {
+    flex-direction: column;
+    align-items: start;
+    padding: 0.5rem;
+  }
+
+  nav section {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    margin: 1.5rem 0.25rem;
+    gap: 2rem;
+  }
+
+  nav section a {
+    width: 100%;
+    text-align: center;
+  }
+
+  nav .open {
+    display: flex;
+  }
+
+  nav .stor {
+    width: 85%;
+    text-align: left;
+  }
+
+  nav .stor h1 {
+    font-size: 2.5rem;
+    letter-spacing: 3px;
   }
 }
