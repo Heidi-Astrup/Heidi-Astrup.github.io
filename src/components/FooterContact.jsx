@@ -4,32 +4,8 @@ import github from "../images/SoMe/awsomeGithub.svg";
 import phone from "../images/SoMe/phone3.svg";
 import mail from "../images/SoMe/mail3.svg";
 import ContactForm from "../components/ContactForm";
-import emailjs from "emailjs-com";
 
 export default function FooterContact() {
-  function sendEmail(e) {
-    e.preventDefault();
-    emailjs
-      .sendForm(
-        "service_dci2fvu", // fra EmailJS
-        "template_4ga0l3n", // fra EmailJS
-        e.target,
-        "wBX-lCj07-vq_uE38" // fra EmailJS
-      )
-      .then(
-        (result) => {
-          console.log("Email sendt!", result.text);
-          alert("Tak! Din besked er sendt 🚀");
-        },
-        (error) => {
-          console.log("Fejl:", error.text);
-          alert("Ups, der skete en fejl 😢");
-        }
-      );
-
-    e.target.reset(); // ryd formularen
-  }
-
   return (
     <div className="FooterContact">
       <div className="kontaktDel">

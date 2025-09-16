@@ -6,7 +6,7 @@ export default function ProjectSection() {
 
   useEffect(() => {
     async function fetchProjects() {
-      const response = await fetch("../public/data/projects.json");
+      const response = await fetch("/data/projects.json");
       const data = await response.json();
       setProjekter(data);
     }
@@ -17,7 +17,6 @@ export default function ProjectSection() {
     <section className="project-section">
       {projekter.map((projekt) => (
         <section key={projekt.id} className="projekt-card">
-          <img src={projekt.image} alt={projekt.title} />
           <article>
             <h3>{projekt.title}</h3>
             <h4>{projekt.subtitle}</h4>
@@ -31,6 +30,9 @@ export default function ProjectSection() {
               <button>Se websiden online</button>{" "}
             </a>
           </article>
+          <figure>
+            <img src={projekt.image} alt={projekt.title} />
+          </figure>
         </section>
       ))}
     </section>
