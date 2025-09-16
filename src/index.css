@@ -85,6 +85,7 @@ nav {
 
 nav .stor {
   width: 50%;
+  text-align: left;
 }
 
 nav section {
@@ -242,7 +243,6 @@ button {
 .projekt-card:nth-child(2n) > article {
   /* for every second client row switch sides of image and text*/
   text-align: left;
-  color: var(--lysBlaa);
   margin: auto auto auto 0;
 }
 
