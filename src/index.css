@@ -480,6 +480,10 @@ button:hover {
     width: 100%;
   }
 
+  .fedeProjekter {
+    padding: 3rem 1rem;
+  }
+
   .ProjektTop {
     flex-direction: column;
     gap: 2rem;
@@ -487,7 +491,8 @@ button:hover {
   }
 
   .ProjektTop img {
-    height: 30rem;
+    width: 90%;
+    height: auto;
   }
 
   .kompetencer {
