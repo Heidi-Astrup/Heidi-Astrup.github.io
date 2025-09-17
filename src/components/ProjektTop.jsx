@@ -1,6 +1,6 @@
-import bordtennisHel from "../images/aabtHel.jpg";
-import mensHel from "../images/mensHel.jpg";
-import radarHel from "../images/radarHel.jpg";
+import bordtennisHel from "/public/images/aabtHel.jpg";
+import mensHel from "/public/images/mensHel.jpg";
+import radarHel from "/public/images/radarHel.jpg";
 
 export default function ProjectTop() {
   return (

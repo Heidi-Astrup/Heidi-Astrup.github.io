@@ -1,8 +1,8 @@
-import facebook from "../images/SoMe/awsomeFacebook.svg";
-import linkedin from "../images/SoMe/awsomeLinkedin.svg";
-import github from "../images/SoMe/awsomeGithub.svg";
-import phone from "../images/SoMe/phone3.svg";
-import mail from "../images/SoMe/mail3.svg";
+import facebook from "/public/images/SoMe/awsomeFacebook.svg";
+import linkedin from "/public/images/SoMe/awsomeLinkedin.svg";
+import github from "/public/images/SoMe/awsomeGithub.svg";
+import phone from "/public/images/SoMe/phone3.svg";
+import mail from "/public/images/SoMe/mail3.svg";
 import ContactForm from "../components/ContactForm";
 
 export default function FooterContact() {

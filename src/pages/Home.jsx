@@ -1,7 +1,6 @@
-import HeidiAstrup from "../images/HeidiAstrup.png";
+import HeidiAstrup from "/public/images/HeidiAstrup.png";
 import ProjectTop from "../components/ProjektTop.jsx";
 import { NavLink } from "react-router";
-import FooterContact from "../components/FooterContact.jsx";
 
 export default function Home() {
   return (
