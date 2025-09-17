@@ -6,7 +6,7 @@
     "year": 2024,
     "semester": "1. semester",
     "grade": "Ingen karakter givet",
-    "description": "Madside med opskriter.",
+    "description": "Madside med opskriter, for studerende. Case med et webunivers",
     "description2": "HAPS er en hjemmeside med fokus på opskrifter, madplaner og inspiration til hverdagsmad. På siden kan man finde en samling af opskrifter, der er opdelt i forskellige kategorier som f.eks. hurtig mad, vegetarretter, budgetvenlige måltider og proteinrige opskrifter. Derudover tilbyder HAPS en ugentlig madplan samt en indkøbsfunktion, der samler de nødvendige ingredienser til opskrifterne. Hjemmesiden indeholder også en blogsektion, hvor der deles idéer og tips relateret til mad og måltider i hverdagen.",
     "tags": ["HTML", "CSS"],
     "image": "images/hapsBla.png",
@@ -54,7 +54,7 @@
   },
   {
     "id": 4,
-    "title": "AABT",
+    "title": "Aarhus Bordtennis",
     "subtitle": "Aktivt website",
     "year": 2025,
     "semester": "Lavet uden studie sammenhæng, som frivilligt arbejde",

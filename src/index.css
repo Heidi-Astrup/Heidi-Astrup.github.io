@@ -225,6 +225,9 @@ strong {
   padding: 1.5rem;
   display: flex;
   flex-direction: column;
+  text-align: right;
+  margin: auto 0 auto auto;
+  max-width: 80%;
 }
 
 .projekt-card article p {
@@ -254,7 +257,6 @@ button {
 .projekt-card:nth-child(2n) > article {
   /* for every second client row switch sides of image and text*/
   text-align: left;
-  border: 2px solid red;
   margin: auto auto auto 0;
 }
 
@@ -262,22 +264,18 @@ button {
   .projekt-card {
     display: grid;
     grid-template-columns: 3fr 4fr;
-    border: 3px solid green;
   }
 
   .projekt-card:nth-child(2n) {
     grid-template-columns: 4fr 3fr;
-    border: 2px solid red;
   }
 
   .projekt-card:nth-child(2n) > img {
     order: 1;
-    border: 2px solid red;
   }
 
   .projekt-card:nth-child(2n) > article {
     order: 2;
-    border: 2px solid blue;
   }
 }
 
