@@ -35,7 +35,9 @@ export default function ProjectDetails() {
               &#x2190; Tilbage til alle projekter{" "}
             </NavLink>
           </article>
-          <img src={`/${projekt.image}`} alt={projekt.title} />
+          <figure>
+            <img src={`/${projekt.screenImage}`} alt={projekt.title} />
+          </figure>
         </section>
       ))}
     </main>

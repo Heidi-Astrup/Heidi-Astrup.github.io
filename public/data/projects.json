@@ -10,6 +10,7 @@
     "description2": "HAPS er en hjemmeside med fokus på opskrifter, madplaner og inspiration til hverdagsmad. På siden kan man finde en samling af opskrifter, der er opdelt i forskellige kategorier som f.eks. hurtig mad, vegetarretter, budgetvenlige måltider og proteinrige opskrifter. Derudover tilbyder HAPS en ugentlig madplan samt en indkøbsfunktion, der samler de nødvendige ingredienser til opskrifterne. Hjemmesiden indeholder også en blogsektion, hvor der deles idéer og tips relateret til mad og måltider i hverdagen.",
     "tags": ["HTML", "CSS"],
     "image": "images/hapsBla.png",
+    "screenImage": "images/websitesScreen/hapsScreen.png",
     "url": "https://haps.astrupdesigns.dk/madplan.html"
   },
   {
@@ -23,6 +24,7 @@
     "description2": "Radar er en aarhusiansk koncert- og musikscene, hvor der præsenteres et bredt udvalg af livearrangementer. På hjemmesiden findes en kalender over kommende koncerter og events, suppleret med information om de medvirkende kunstnere og musikgenrer. Derudover indeholder siden et galleri med billeder fra tidligere koncerter, som giver et indtryk af stemningen på stedet. Praktiske oplysninger som adresse, kontaktinformation og muligheder for booking er også tilgængelige.",
     "tags": ["HTML", "CSS"],
     "image": "images/radarBla.png",
+    "screenImage": "images/websitesScreen/radarScreen.png",
     "topImage": "images/radarHel.jpg",
     "url": "https://radar.astrupdesigns.dk"
   },
@@ -36,6 +38,7 @@
     "description": "Gruppeprojekt med at lave en hjemmeside for et fiktivt bryggeri, med fokus på at skabe fællesskab for unge.",
     "tags": ["HTML", "CSS", "JavaScript"],
     "image": "images/brewBla.png",
+    "screenImage": "images/websitesScreen/buzzScreen.png",
     "url": "https://zerobuzzbrew.astrupdesigns.dk/"
   },
   {
@@ -49,6 +52,7 @@
     "description2": "Denne menstruations hjemmeside, fokuserer på information om menstruation og menstruationscyklus. Siden præsenterer grafiske illustrationer — herunder et cyklusdiagram som viser sammenhængen mellem menstruationscyklus og årstiderne (forår, sommer, efterår og vinter). Formålet er at give et visuelt og informativt indblik i, hvordan menstruationscyklussen udvikler sig over tid, både med biologiske aspekter og med mulige rytmiske eller årstidsrelaterede perspektiver. (Websitet er lavet som en webapp og er derfor kun optimeret til Ipad pro skærmstørrelse.)",
     "tags": ["HTML", "CSS", "JavaScript"],
     "image": "images/menstruationBla.png",
+    "screenImage": "images/websitesScreen/mensScreen.png",
     "topImage": "images/mensHel.jpg",
     "url": "https://menstruation.astrupdesigns.dk/"
   },
@@ -58,9 +62,11 @@
     "subtitle": "Aktivt website",
     "year": 2025,
     "semester": "Lavet uden studie sammenhæng, som frivilligt arbejde",
+    "grade": "Ingen karakter",
     "description": "Informationsside for Aarhus Bordtennisklub, med fokus på at gøre siden mere aktiv og brugervenlig.",
     "tags": ["Wordpress"],
     "image": "images/bordtennisBla.png",
+    "screenImage": "images/websitesScreen/aabtScreen.png",
     "topImage": "images/aabtHel.jpg",
     "url": "https://aarhusbordtennis.dk/"
   }
