@@ -19,7 +19,7 @@ export default function ProjectTop() {
       {selectedItems.map((projekt) => (
         <div key={projekt.id} className="projekt-del">
           <NavLink to={`/projects/${projekt.id}`}>
-            <img src={projekt.topImage} alt="" />
+            <img src={projekt.topImage} alt={projekt.title} />
             <p>{projekt.title}</p>
           </NavLink>
         </div>
