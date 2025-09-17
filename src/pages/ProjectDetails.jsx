@@ -7,13 +7,13 @@ export default function ProjectDetails() {
 
   useEffect(() => {
     async function fetchProjects() {
-      const response = await fetch("../public/data/projects.json");
+      const response = await fetch("/data/projects.json");
       const data = await response.json();
       const detteProjekt = data.find((p) => p.id === parseInt(id));
       setProjekter(detteProjekt ? [detteProjekt] : []);
     }
     fetchProjects();
-  }, []);
+  }, [id]);
 
   return (
     <main>
