@@ -23,6 +23,7 @@
     "description2": "Radar er en aarhusiansk koncert- og musikscene, hvor der præsenteres et bredt udvalg af livearrangementer. På hjemmesiden findes en kalender over kommende koncerter og events, suppleret med information om de medvirkende kunstnere og musikgenrer. Derudover indeholder siden et galleri med billeder fra tidligere koncerter, som giver et indtryk af stemningen på stedet. Praktiske oplysninger som adresse, kontaktinformation og muligheder for booking er også tilgængelige.",
     "tags": ["HTML", "CSS"],
     "image": "images/radarBla.png",
+    "topImage": "images/radarHel.jpg",
     "url": "https://radar.astrupdesigns.dk"
   },
   {
@@ -48,7 +49,7 @@
     "description2": "Denne menstruations hjemmeside, fokuserer på information om menstruation og menstruationscyklus. Siden præsenterer grafiske illustrationer — herunder et cyklusdiagram som viser sammenhængen mellem menstruationscyklus og årstiderne (forår, sommer, efterår og vinter). Formålet er at give et visuelt og informativt indblik i, hvordan menstruationscyklussen udvikler sig over tid, både med biologiske aspekter og med mulige rytmiske eller årstidsrelaterede perspektiver. (Websitet er lavet som en webapp og er derfor kun optimeret til Ipad pro skærmstørrelse.)",
     "tags": ["HTML", "CSS", "JavaScript"],
     "image": "images/menstruationBla.png",
-    "topImage": "src/images/mensHel.jpg",
+    "topImage": "images/mensHel.jpg",
     "url": "https://menstruation.astrupdesigns.dk/"
   },
   {
@@ -60,7 +61,7 @@
     "description": "Informationsside for Aarhus Bordtennisklub, med fokus på at gøre siden mere aktiv og brugervenlig.",
     "tags": ["Wordpress"],
     "image": "images/bordtennisBla.png",
-    "topImage": "src/images/aabtHel.jpg",
+    "topImage": "images/aabtHel.jpg",
     "url": "https://aarhusbordtennis.dk/"
   }
 ]
