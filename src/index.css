@@ -486,6 +486,10 @@ button:hover {
     text-align: center;
   }
 
+  .ProjektTop img {
+    height: 30rem;
+  }
+
   .kompetencer {
     width: 80%;
   }
