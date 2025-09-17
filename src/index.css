@@ -385,14 +385,14 @@ button {
   width: 40%;
 }
 
-.contai {
+.mail-tel-container {
   width: 100%;
   display: flex;
   justify-content: left;
   align-items: center;
 }
 
-.contai img {
+.mail-tel-container img {
   width: 2.5rem;
 }
 
@@ -419,6 +419,11 @@ form input {
   font-size: 1.2rem;
 }
 
+form textarea,
+.projekt-card article a {
+  margin-bottom: 1.5rem;
+}
+
 .besked,
 button {
   padding: 0.5rem;
@@ -432,7 +437,6 @@ button {
 }
 
 button {
-  margin-top: 1.5rem;
   font-size: 1.3rem;
   color: var(--gul);
 }
@@ -459,6 +463,10 @@ button:hover {
 
   .ProjektTop img {
     height: 19rem;
+  }
+
+  .FooterContact {
+    padding: 3rem 2rem;
   }
 }
 

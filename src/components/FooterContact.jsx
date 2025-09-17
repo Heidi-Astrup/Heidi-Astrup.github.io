@@ -10,11 +10,11 @@ export default function FooterContact() {
     <div className="FooterContact">
       <div className="kontaktDel">
         <h2>KONTAKT</h2>
-        <a href="mailto:Heidi@kabelmail.dk" className="contai">
+        <a href="mailto:Heidi@kabelmail.dk" className="mail-tel-container">
           <img src={mail} alt="Telefon ikon" />
           Heidi@kabelmail.dk
         </a>
-        <a href="tel:+4522367207" className="contai">
+        <a href="tel:+4522367207" className="mail-tel-container">
           <img src={phone} alt="Telefon ikon" />
           22 36 72 07
         </a>
