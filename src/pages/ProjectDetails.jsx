@@ -22,7 +22,7 @@ export default function ProjectDetails() {
           <article>
             <h3>{projekt.title}</h3>
             <h4>{projekt.subtitle}</h4>
-            <p>{projekt.description}</p>
+            <p>{projekt.description2}</p>
             <p>
               {projekt.year} - {projekt.semester}
             </p>
