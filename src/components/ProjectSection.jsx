@@ -13,6 +13,7 @@ export default function ProjectSection() {
     }
     fetchProjects();
   }, []);
+
   return (
     <section className="project-section">
       {projekter.map((projekt) => (
