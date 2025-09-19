@@ -119,11 +119,11 @@ nav .menu {
   flex-direction: column;
   justify-content: space-between;
   width: 2.25rem;
-  height: 2rem;
+  height: 1.7rem;
 }
 
 nav .menu span {
-  height: 0.4rem;
+  height: 0.27rem;
   width: 100%;
   background-color: var(--morkBlaa);
   border-radius: 0.2rem;
