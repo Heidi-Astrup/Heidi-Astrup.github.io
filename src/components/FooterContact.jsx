@@ -18,7 +18,8 @@ export default function FooterContact() {
           <img src={phone} alt="Telefon ikon" />
           22 36 72 07
         </a>
-
+      </div>
+      <div className="kontaktDel">
         <h3>SOCIALS</h3>
         <a href="https://www.linkedin.com/in/heidi-astrup-b2661a325/">
           <img src={linkedin} alt="" />
@@ -30,7 +31,7 @@ export default function FooterContact() {
           <img src={facebook} alt="" />
         </a>
       </div>
-      <ContactForm />
+      {/* <ContactForm /> */}
     </div>
   );
 }

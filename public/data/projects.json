@@ -1,17 +1,18 @@
 [
   {
     "id": 0,
-    "title": "HAPS",
-    "subtitle": "website",
-    "year": 2024,
-    "semester": "1. semester",
-    "grade": "Ingen karakter givet",
-    "description": "Madside med opskriter, for studerende. Case med et webunivers",
-    "description2": "HAPS er en hjemmeside med fokus på opskrifter, madplaner og inspiration til hverdagsmad. På siden kan man finde en samling af opskrifter, der er opdelt i forskellige kategorier som f.eks. hurtig mad, vegetarretter, budgetvenlige måltider og proteinrige opskrifter. Derudover tilbyder HAPS en ugentlig madplan samt en indkøbsfunktion, der samler de nødvendige ingredienser til opskrifterne. Hjemmesiden indeholder også en blogsektion, hvor der deles idéer og tips relateret til mad og måltider i hverdagen.",
-    "tags": ["HTML", "CSS"],
-    "image": "images/hapsBla.png",
-    "screenImage": "images/websitesScreen/hapsScreen.png",
-    "url": "https://haps.astrupdesigns.dk/madplan.html"
+    "title": "Aarhus Bordtennis",
+    "subtitle": "Aktivt website",
+    "year": 2025,
+    "semester": "Lavet uden studie sammenhæng, som frivilligt arbejde",
+    "grade": "Ingen karakter",
+    "description": "Informationsside for Aarhus Bordtennisklub, med fokus på at gøre siden mere aktiv og brugervenlig.",
+    "description2": "Dette website er klubbens officielle hjemmeside, hvor medlemmer og interesserede kan finde information om tilbud og aktiviteter. Der er lagt vægt på at formidle klubbens værdier som fællesskab, udvikling og sportslig aktivitet, bl.a. gennem tekstindhold og billeder fra træning og events. Websitet fungerer som en digital indgang til klubben og understøtter både kommunikation med nuværende medlemmer og rekruttering af nye.",
+    "tags": ["Wordpress"],
+    "image": "images/bordtennisBla.png",
+    "screenImage": "images/websitesScreen/aabtScreen.png",
+    "topImage": "images/aabtHel.jpg",
+    "url": "https://aarhusbordtennis.dk/"
   },
   {
     "id": 1,
@@ -30,20 +31,6 @@
   },
   {
     "id": 2,
-    "title": "Zero BuzzBrew",
-    "subtitle": "Website",
-    "year": 2025,
-    "semester": "2. semester",
-    "grade": "Ingen karakter givet",
-    "description": "Gruppeprojekt med at lave en hjemmeside for et fiktivt bryggeri, med fokus på at skabe fællesskab for unge.",
-    "description2": "Sammen med en gruppe har jeg udviklet websitet for ZeroBuzz Brew, et fiktivt microbryggeri. På siden findes beskrivelser af, hvordan øllene opleves sensorisk: hvor tydeligt brus de indeholder, hvorvidt de fremstår grumsede, og hvordan smagen ændrer sig ved forskellige temperaturer. Designet er farverigt og moderne, og der er arbejdet med grafiske elementer og infografik til at formidle produktinformation og brygningsproces på en enkel måde.",
-    "tags": ["HTML", "CSS", "JavaScript"],
-    "image": "images/brewBla.png",
-    "screenImage": "images/websitesScreen/buzzScreen.png",
-    "url": "https://zerobuzzbrew.astrupdesigns.dk/"
-  },
-  {
-    "id": 3,
     "title": "Menstruation",
     "subtitle": "Informativ website",
     "year": 2025,
@@ -58,18 +45,31 @@
     "url": "https://menstruation.astrupdesigns.dk/"
   },
   {
-    "id": 4,
-    "title": "Aarhus Bordtennis",
-    "subtitle": "Aktivt website",
+    "id": 3,
+    "title": "Zero BuzzBrew",
+    "subtitle": "Website",
     "year": 2025,
-    "semester": "Lavet uden studie sammenhæng, som frivilligt arbejde",
-    "grade": "Ingen karakter",
-    "description": "Informationsside for Aarhus Bordtennisklub, med fokus på at gøre siden mere aktiv og brugervenlig.",
-    "description2": "Dette website er klubbens officielle hjemmeside, hvor medlemmer og interesserede kan finde information om tilbud og aktiviteter. Der er lagt vægt på at formidle klubbens værdier som fællesskab, udvikling og sportslig aktivitet, bl.a. gennem tekstindhold og billeder fra træning og events. Websitet fungerer som en digital indgang til klubben og understøtter både kommunikation med nuværende medlemmer og rekruttering af nye.",
-    "tags": ["Wordpress"],
-    "image": "images/bordtennisBla.png",
-    "screenImage": "images/websitesScreen/aabtScreen.png",
-    "topImage": "images/aabtHel.jpg",
-    "url": "https://aarhusbordtennis.dk/"
+    "semester": "2. semester",
+    "grade": "Ingen karakter givet",
+    "description": "Gruppeprojekt med at lave en hjemmeside for et fiktivt bryggeri, med fokus på at skabe fællesskab for unge.",
+    "description2": "Sammen med en gruppe har jeg udviklet websitet for ZeroBuzz Brew, et fiktivt microbryggeri. På siden findes beskrivelser af, hvordan øllene opleves sensorisk: hvor tydeligt brus de indeholder, hvorvidt de fremstår grumsede, og hvordan smagen ændrer sig ved forskellige temperaturer. Designet er farverigt og moderne, og der er arbejdet med grafiske elementer og infografik til at formidle produktinformation og brygningsproces på en enkel måde.",
+    "tags": ["HTML", "CSS", "JavaScript"],
+    "image": "images/brewBla.png",
+    "screenImage": "images/websitesScreen/buzzScreen.png",
+    "url": "https://zerobuzzbrew.astrupdesigns.dk/"
+  },
+  {
+    "id": 4,
+    "title": "HAPS",
+    "subtitle": "website",
+    "year": 2024,
+    "semester": "1. semester",
+    "grade": "Ingen karakter givet",
+    "description": "Madside med opskriter, for studerende. Case med et webunivers",
+    "description2": "HAPS er en hjemmeside med fokus på opskrifter, madplaner og inspiration til hverdagsmad. På siden kan man finde en samling af opskrifter, der er opdelt i forskellige kategorier som f.eks. hurtig mad, vegetarretter, budgetvenlige måltider og proteinrige opskrifter. Derudover tilbyder HAPS en ugentlig madplan samt en indkøbsfunktion, der samler de nødvendige ingredienser til opskrifterne. Hjemmesiden indeholder også en blogsektion, hvor der deles idéer og tips relateret til mad og måltider i hverdagen.",
+    "tags": ["HTML", "CSS"],
+    "image": "images/hapsBla.png",
+    "screenImage": "images/websitesScreen/hapsScreen.png",
+    "url": "https://haps.astrupdesigns.dk/madplan.html"
   }
 ]

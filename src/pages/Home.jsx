@@ -9,7 +9,7 @@ export default function Home() {
         <div className="startside">
           <article>
             <h2>Heidi astrup</h2>
-            <h4>Multimediedesignstuderende</h4>
+            <h4>Multimediedesigner</h4>
             <p>
               med speciale i <strong>frontend</strong>
             </p>
@@ -26,8 +26,10 @@ export default function Home() {
           <div className="kompetencer">
             <p>HTML</p>
             <p>CSS</p>
+            <p>Tailwind CSS</p>
             <p>JavaScript</p>
             <p>React</p>
+            <p>Next.js</p>
             <p>Figma</p>
             <p>GitHub</p>
             <p>Adobe</p>

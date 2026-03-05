@@ -27,11 +27,6 @@ export default function About() {
           arbejde som multimediedesigner.
         </p>
         <br />
-        <p>
-          Jeg elsker at lære nyt og ser frem til at <strong>udvikle</strong> mig
-          yderligere gennem min kommende praktik.
-        </p>
-        <br />
       </article>
       <img src={profilbillede} alt="Profilbillede af Heidi" />
     </main>

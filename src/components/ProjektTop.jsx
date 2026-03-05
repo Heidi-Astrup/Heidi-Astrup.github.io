@@ -8,7 +8,7 @@ export default function ProjectTop() {
     async function fetchProjects() {
       const response = await fetch("/data/projects.json");
       const data = await response.json();
-      const chosen = [data[4], data[3], data[1]]; //vælger 3 bestemte objekter i min JSON fil
+      const chosen = [data[0], data[1], data[2]]; //vælger 3 bestemte objekter i min JSON fil
       setSelectedItems(chosen);
     }
     fetchProjects();
