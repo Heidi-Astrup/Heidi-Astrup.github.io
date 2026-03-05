@@ -22,7 +22,7 @@ export default function Home() {
           <NavLink to="/projects">Se alle projekter &#x2192; </NavLink>
         </article>
         <article className="kompetencerBoks">
-          <h3>Jeg arbejder i</h3>
+          <h3>Kompetencer i</h3>
           <div className="kompetencer">
             <p>HTML</p>
             <p>CSS</p>
@@ -33,8 +33,9 @@ export default function Home() {
             <p>Figma</p>
             <p>GitHub</p>
             <p>Adobe</p>
-            <p>VS code</p>
             <p>Canva</p>
+            <p>WordPress</p>
+            <p>Elementor</p>
           </div>
         </article>
       </main>
