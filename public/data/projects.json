@@ -1,6 +1,20 @@
-[
-  {
+[{
     "id": 0,
+    "title": "Event IT hjælpecenter",
+    "subtitle": "Hjælpecenter",
+    "year": 2026,
+    "semester": "4. semester - Afsluttende projekt",
+    "grade": "12",
+    "description": "Hjælpecenter for Event IT's kunder - Lavet i samarbejde med Event IT",
+    "description2": "Formålet med hjælpecenteret er at aflaste Event IT's supportafdeling, ved at kunderne selv kan søge hjælp gennem et hjælpecenter og den integeret chatbot. Sitet er lavet som det afsluttende projekt på 4. semester, i samarbejde med Event IT, som allerede har taget hjælpecenteret i brug. Chefen for Event IT er ekstremt glad for den løsning vi har udviklet. Lavet i samarbejde med en medstuderende.",
+    "tags": ["Zendesk", "Curlybars", "HTML", "SCSS", "JavaScript"],
+    "image": "images/HjælpecenterBrun.png",
+    "screenImage": "images/websitesScreen/EventITScreen3.png",
+    "topImage": "images/hjelpecenterHel.jpg",
+    "url": "https://flexminds.zendesk.com/hc/da"
+  },
+  {
+    "id": 1,
     "title": "Aarhus Bordtennis",
     "subtitle": "Aktivt website",
     "year": 2025,
@@ -15,7 +29,7 @@
     "url": "https://aarhusbordtennis.dk/"
   },
   {
-    "id": 1,
+    "id": 2,
     "title": "Radar",
     "subtitle": "Responsiv website",
     "year": 2024,
@@ -28,21 +42,6 @@
     "screenImage": "images/websitesScreen/radarScreen.png",
     "topImage": "images/radarHel.jpg",
     "url": "https://radar.astrupdesigns.dk"
-  },
-  {
-    "id": 2,
-    "title": "Event IT hjælpecenter",
-    "subtitle": "Hjælpecenter",
-    "year": 2026,
-    "semester": "4. semester - Afsluttende projekt",
-    "grade": "12",
-    "description": "Hjælpecenter for Event IT's kunder - Lavet i samarbejde med Event IT",
-    "description2": "Formålet med hjælpecenteret er at aflaste Event IT's supportafdeling, ved at kunderne selv kan søge hjælp gennem et hjælpecenter og den integeret chatbot. Sitet er lavet som det afsluttende projekt på 4. semester, i samarbejde med Event IT, som allerede har taget hjælpecenteret i brug. Chefen for Event IT er ekstremt glad for den løsning vi har udviklet. Lavet i samarbejde med en medstuderende.",
-    "tags": ["Zendesk", "Curlybars", "HTML", "SCSS", "JavaScript"],
-    "image": "images/HjælpecenterBrun.png",
-    "screenImage": "images/websitesScreen/EventITScreen3.png",
-    "topImage": "images/hjelpecenterHel.jpg",
-    "url": "https://flexminds.zendesk.com/hc/da"
   },
   {
     "id": 3,
