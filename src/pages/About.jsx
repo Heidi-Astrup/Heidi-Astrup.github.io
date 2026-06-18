@@ -6,10 +6,12 @@ export default function About() {
       <article className="abouttekst">
         <h3>Lidt om mig</h3>
         <p>
-          Hej, jeg hedder Heidi, og jeg studerer multimediedesign med speciale i{" "}
+          Hej, jeg hedder Heidi, og jeg er færdiguddannet multimediedesigner med speciale i{" "}
           <strong>frontend-udvikling</strong>. Jeg har en stor passion for
           programmering, som også er hovedårsagen til mit uddannelsesvalg – men
-          jeg nyder samtidig at udfolde mig kreativt.
+          jeg nyder samtidig at udfolde mig kreativt. Jeg er vild med at 
+          design webløsninger og kan en masse UX og har øje for detaljen, 
+          både for brugeroplevelsen, det grafiske design og koden.
         </p>
         <br />
         <p>
@@ -21,8 +23,9 @@ export default function About() {
         </p>
         <br />
         <p>
-          Ved siden af studiet arbejder jeg som bordtennistræner. Her har jeg
-          fået erfaring med at <strong>tage ansvar</strong>, formidle viden og
+          I min fritid er jeg frivillig i Aarhus Bordtennis, hvor jeg er 
+          bordtennistræner. Her har jeg fået erfaring med at 
+          <strong>tage ansvar</strong>, formidle viden og
           skabe engagement – kompetencer, jeg også tager med mig ind i mit
           arbejde som multimediedesigner.
         </p>
