@@ -26,10 +26,12 @@ export default function Home() {
           <div className="kompetencer">
             <p>HTML</p>
             <p>CSS</p>
+            <p>SCSS</p>
             <p>Tailwind CSS</p>
             <p>JavaScript</p>
             <p>React</p>
             <p>Next.js</p>
+            <p>Curlybars</p>
             <p>Figma</p>
             <p>GitHub</p>
             <p>Adobe</p>
