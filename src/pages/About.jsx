@@ -10,7 +10,7 @@ export default function About() {
           <strong>frontend-udvikling</strong>. Jeg har en stor passion for
           programmering, som også er hovedårsagen til mit uddannelsesvalg – men
           jeg nyder samtidig at udfolde mig kreativt. Jeg er vild med at 
-          design webløsninger og kan en masse UX og har øje for detaljen, 
+          designe webløsninger og kan en masse UX og har øje for detaljen, 
           både for brugeroplevelsen, det grafiske design og koden.
         </p>
         <br />
@@ -24,7 +24,7 @@ export default function About() {
         <br />
         <p>
           I min fritid er jeg frivillig i Aarhus Bordtennis, hvor jeg er 
-          bordtennistræner. Her har jeg fået erfaring med at 
+          bordtennistræner. Her har jeg fået erfaring med at  
           <strong>tage ansvar</strong>, formidle viden og
           skabe engagement – kompetencer, jeg også tager med mig ind i mit
           arbejde som multimediedesigner.
